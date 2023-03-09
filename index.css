@@ -1,0 +1,27 @@
+body {
+  height: 100rem;
+  background-color: rgb(231, 222, 222);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+#color1 {
+  color: rgb(26, 25, 25);
+  margin-left: 20px;
+  margin-top: 7px;
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+}
+#color1:hover {
+  color: rgb(105, 100, 100);
+  text-shadow: 2px 5px 10px rgb(238, 255, 5);
+}
+.fixed-top {
+  border-top: 5px solid rgb(248, 135, 154);
+  background-color: white;
+  margin: 0px;
+  height: 80px;
+  border-bottom: 1px solid rgba(163, 163, 163, 0.795);
+  position: fixed;
+}
